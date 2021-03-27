@@ -1,0 +1,19 @@
+1. mảng là gì ?
+Mảng là tập hợp các phần tử có cùng kiểu dữ liệu.
+2. số lượng phần tử tối đa của mảng là giá trị như thế nào ?
+Là giá trị không thay đổi trong suốt quá trình đang chạy
+3. mảng tĩnh khác gì so với mảng động ?
++Mảng tĩnh là mảng có số lượng phần tử không thể thay đổi đươc trong suốt quá trình chương trình đang chạy
+	sau khi không dùng nữa thì tự giải phóng bộ nhớ.
++Mảng động là mảng có số lượng phần tử có thể thay đổi được trong suốt quá trình chương trình đang chạy.
+	Người dùng phải tự giải phóng bộ nhớ.
+4. trình bày CHI TIÊT chương trình sẽ xử lý gì khi gặp lệnh:   int a[10];
+Sẽ cấp phát cho mình 10 vùng nhớ liên tiếp nhau trong bộ nhớ, mỗi vùng có 4 byte, cho a quản lý.Được đánh số từ 0 cho đến 9. địa chỉ của a = địa chỉ của vùng nhớ đầu tiên
+5. trình bày ý nghĩa lệnh:  int a[7];         và lệnh   a[0];
+int a[7] //khai báo mảng số nguyên có tên là a có tối a 5 phần tử
+a[0]     // truy xuất phần tử 0 của mảng a
+
+6. giá trị của các phần tử mảng sau khi vừa khai báo là gì ?
+Là giá trị rác.
+7. trình bày công thức tính kích thước mảng: float a[n]?
+sizeof a /sizeof(float)
